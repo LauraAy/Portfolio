@@ -9,7 +9,7 @@ function App() {
   return(
     <>
       <Route exact path="/" component={Home} />
-      <Route exact path="/portfoliopage" component={Portfolio} />
+      <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/test" component={Test} />
     </>
